@@ -24,6 +24,14 @@ print(clean_headers(raw_cols))
 
 
 
-score=100
+score=88.9
 if score >= 90 :
     print("Pass")
+    if score == 100:
+        print ("Rewrite the exam /copy")
+
+elif score >= 75:
+    print("V GOOD")
+else : 
+    print("Fail")
+
