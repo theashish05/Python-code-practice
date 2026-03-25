@@ -22,8 +22,6 @@ raw_cols = ["  First Name  ", "Last-Name", "Order_ID#", "Total ($)"]
 print(clean_headers(raw_cols)) 
 # Output: ['first_name', 'last_name', 'order_id', 'total']
 
-
-
 score=88.9
 if score >= 90 :
     print("Pass")
