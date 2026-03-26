@@ -27,3 +27,19 @@ for num in range (1,10,2):
 
 
 
+days =['mon','tue','sun','thur']
+for day in days:
+    weekend=['sat','sun']
+    if day in weekend:
+        continue
+        print(f"weekday {day}")
+
+
+emails =['ashish@gmail.com',
+         'rohi@gmail.com',
+         'DROP table Users;']
+for email in emails:
+    if ';' in email:
+        break
+    print("Hacker attack SQL script detected")
+    print(f"Processing email {email}")
