@@ -18,3 +18,10 @@ while attempts < 3:
     attempts += 1
 else :
     print("thank you")
+
+
+Emp =['ashish','rohith','gagan','dilip']
+id=['001','002','003','004']
+for e in Emp:
+    for i in id:
+        print(f"SELECT count(*) FROM {e} WHERE {i} IS NULL")
