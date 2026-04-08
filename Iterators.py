@@ -15,3 +15,11 @@ for index,value in enumerate (letters):
 numbers=[1,2,3]
 for l,n in zip (letters,numbers):
     print(l,n)
+
+
+
+letters1 = ['x','y','z']
+num = [1,2,3]
+
+for l,n, in zip (letters1,num):
+    print(l,n)
